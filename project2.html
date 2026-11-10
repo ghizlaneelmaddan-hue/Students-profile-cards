@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student profile cards</title>
+  <link rel="stylesheet" href="projecttwo.css">
+</head>
+<body>
+  <h1>Student profile cards</h1>
+
+  <form id="form" novalidate>
+    <input type="text" id="cne" placeholder="CNE">
+    <input type="text" id="nom" placeholder="Nom">
+    <input type="text" id="formation" placeholder="Formation">
+    <select id="sexe">
+      <option value="">Sexe</option>
+      <option value="F">Fille</option>
+      <option value="M">Garçon</option>
+    </select>
+    <button type="submit">Ajouter</button>
+  </form>
+
+  <p id="message"></p>
+  <div id="cards"></div>
+
+  <script src="project2js.js"></script>
+</body>
+</html>
